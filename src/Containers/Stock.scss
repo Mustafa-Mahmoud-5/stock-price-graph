@@ -1,0 +1,70 @@
+.card {
+  background-color: #F9F8F7;
+  box-shadow: inset 5px 2px;
+}
+.container{
+  padding-top: 100px;
+  .stock-app {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-bottom: 5px;
+
+
+    .global-data{
+      .text-lg {
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+
+
+
+    #inp-style {
+      width: 300px;
+      padding: 5px;
+      border-radius: 3px;
+      font-size: 17px;
+      transition: width .3s ease;
+      border: 1px solid;
+      display: block;
+      margin: auto;
+    }
+  
+    #inp-style:focus {
+      border: rgb(88, 88, 95) solid 1px;
+      border-radius: 7px;
+      width: 320px;
+    }
+
+    .chart-section {
+      margin-top: 30px;
+    }
+
+    .options {
+      margin-top: 30px;
+      width: 30%;
+      font-size: 17px;
+
+      .type {
+        border-bottom: 4px solid transparent;
+        transition: border .2s ease;
+        margin: 5px 8px;
+        font-weight: bold;
+        display: inline-block;
+        background-color: transparent !important;
+        border: none;
+        border-bottom: 4px solid transparent;
+        font-size: 17px;
+      }
+
+      .type:hover {
+        cursor: pointer;
+        border-bottom: 4px solid #4285F4;
+      }
+
+      .active {
+        border-bottom: 4px solid #4285F4;
+      }
+    }
+  
+  }
+}
